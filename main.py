@@ -1,5 +1,7 @@
 def ggt(a, b):
-    pass
+    while b!= 0:
+        a, b = b, a % b
+    return a
 
 
 if __name__ == '__main__':
