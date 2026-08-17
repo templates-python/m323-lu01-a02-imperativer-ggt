@@ -1,3 +1,8 @@
+"""Imperativer ggT Algorithmus.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu01/aufgaben/imperativereuklid
+"""
+
 def ggt(a, b):
     while b != 0:
         a, b = b, a % b
